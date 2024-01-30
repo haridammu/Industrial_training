@@ -1,0 +1,125 @@
+*{
+    margin: 0px;
+    padding:  0px;
+    box-sizing: border-box;
+}
+.outer{
+    height: 100%;
+    width: auto;
+    background-color:/* rgb(142, 122, 122);*/ lightgray;
+}
+.head{
+    text-align: center;
+    font-size: 20px;
+    color: black;
+    word-spacing: 10px;
+    letter-spacing: 4px;
+    padding-top: 20px;
+}
+.studio{
+    font-size: 60px;
+    color: black;
+    padding-top: 10px;
+    font-weight: bolder;
+    text-align: center;
+}
+.content{
+    text-align: center;
+    font-size: 20px;
+    color: black;
+    padding-top: 10px;
+}
+.btn1{
+    border: 20px solid blueviolet;
+    border-radius: 30px;
+    background-color: blueviolet;
+    height: 60px;
+    width: 240px;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    margin-left: 855px;
+    margin-top:-05px;
+}
+.grey{
+    height: 330px;
+    width: 100%;
+    background-color: rgb(184, 168, 168);
+    position: relative;
+    bottom: -120px;
+}
+.one{
+    height: 260px;
+    width: 400px;
+    background-color: white;
+    box-shadow: 6px 5px 10px rgb(57, 53, 53);
+    position: relative;
+    top: -53px;
+    left: 27%;
+}
+.two{
+    height: 260px;
+    width: 400px;
+    padding-top: 100px;
+    background-color: white;
+    box-shadow: 6px 5px 10px rgb(57, 53, 53);
+    position: relative;
+    top: -23px;
+    left: 27%;
+}
+.three{
+    height: 260px;
+    width: 400px;
+    background-color: rgb(244, 238, 238);
+    box-shadow: 6px 5px 10px rgb(57, 53, 53);
+    position: relative;
+    bottom: 633px;
+    right: -1027px;
+}
+.four{
+    height: 260px;
+    width: 400px;
+    background-color: rgb(244, 238, 238);
+    box-shadow: 6px 5px 10px rgb(57, 53, 53);
+    position: relative;
+    bottom: 583px;
+    right: -1027px;
+}
+.bag{
+    height: 130px;
+    padding-left: 15px;
+}
+.text{
+    font-size: 18px;
+    padding-left: 15px;
+    padding-top: 8px;
+}
+.sample{
+    padding-left: 15px;
+    padding-top: 5px;
+}
+.rocket{
+    height: 130px;
+    padding-left: 15px;
+    position: relative;
+    bottom: 100px;
+}
+.sample1{
+    padding-left: 15px;
+    padding-top: 5px;
+    position: relative;
+    bottom: 100px;
+}
+.text1{
+    font-size: 18px;
+    padding-left: 15px;
+    padding-top: 8px;
+    position: relative;
+    bottom: 100px;
+}
+.sound{
+    height: 130px;
+    position: relative;
+    top: 10px;
+
+}

@@ -1,0 +1,52 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animations</title>
+    <style>
+        .one{
+            height: 300px;
+            width: 300px;
+            border-radius: 100%;
+            background-color: aquamarine;
+            margin: 40px;
+            animation-name:sample ;
+            animation-duration: 5s;
+            animation-iteration-count:50 ;
+            animation-direction:reverse ;
+        }
+        @keyframes sample{
+           /* from{
+                background-color: blueviolet;
+            }
+            to{
+                background-color: lightcoral;
+                transform:rotate(40deg);
+                transform: translate(140px);
+                border-radius: 2%;
+                width:;
+            }
+        */
+        0%{
+            transform: translate(30px);background-color: aquamarine;
+        }
+        25%{
+            transform: translate(280px);background-color: yellowgreen;
+        }
+        50%{
+           transform: translateY(280px);background-color: rgb(205, 50, 195);
+        }
+        75%{
+            transform: translate(-280px);background-color: bisque;
+        }
+        100%{
+            transform: translateY(-280px);background-color: blue;
+        }
+        }
+     
+    </style>
+</head>
+<body>
+    <div class="one"></div>
+</body>
+</html>

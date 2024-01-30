@@ -1,0 +1,101 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+.main_left{
+    height: 100%;
+    width: 430px;
+    background-color:   ;
+    float: left;
+    margin-left: 400px;
+}
+.main_right{
+    float:left;
+    width:880px;
+    height: 100%;
+    background-color:rgb(25, 88, 144);
+}
+.profile{
+    border: 20px solid aliceblue;
+    height: 230px;
+    width: 200px;
+    margin-left: 99px;
+    margin-top: 109px;
+    float: left;
+}
+.img{
+    height: 100px;
+    width: 90px;
+    margin-left: 200px;
+    margin-top: 200px;
+}
+.yellow{
+    height:180px;
+    width: 975px;
+    background-color: yellow;
+    position: relative;
+    top: 160px;
+    left: -93px;
+}
+.call{
+    height: 40px;
+    width: 40px;
+    position: relative;
+    right: 245px;
+    top: 380px;
+}
+.gold_bg{
+    height: 40px;
+    width: 40px;
+    background-color: gold;
+    position: relative;
+    top: 400px;
+    left: 90px;
+}
+.envelope{
+    height: 40px;
+    width: 40px;
+    position: relative;
+    right: 245px;
+    top: 380px;
+}
+.gold_bg2{
+    height: 40px;
+    width: 40px;
+    background-color: gold;
+    position: relative;
+    top: 400px;
+    left: 90px;
+}
+.lapy{
+    position: relative;
+    right: 248px;
+    top: 380px;
+}
+.num{
+    color: aliceblue;
+    position: relative;
+    left: 130px;
+    top: 30px;
+    font-size: 22px;
+}
+.line{
+    border-bottom: 5px solid gold;
+    margin-top:30px;
+    width: 300px;
+    float: right;
+}
+H1{
+    color: aliceblue;
+    padding-left: 50px;
+    padding-top: 70px;
+}
+li{
+    font-size: 25px;
+    color: aliceblue;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+
+

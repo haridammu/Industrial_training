@@ -1,0 +1,123 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transform(Translate)</title>
+    <style>
+        #one{
+            height: 300px;
+            width: 300px;
+            background-color: rgb(25, 220, 155);            /*TRANSFORM---
+                                                                            TRANSLATE(),ROTATE(),SCALE(),Skew(),Matrix()
+                                                                                */
+            margin-left: 40px;
+            margin-top: 30px;
+            border: 2px solid green;
+            float: left;
+        }
+        #two{
+            height: 300px;
+            width: 300px;
+            background-color: rgb(25, 220, 155);
+            margin-left:30px;
+            margin-top: 30px;
+            border: 2px solid green;
+            float: left;
+        }
+        #three{
+            height: 300px;
+            width: 300px;
+            background-color: rgb(25, 220, 155);
+            margin-left: 30px;
+            margin-top: 30px;
+            border: 2px solid green;
+            float: left;
+        }
+        #one:hover{
+                transform: Translate(50px,70px);
+                background-color: royalblue;
+        }
+        #two:hover{
+            background-color: blueviolet;
+            transform: translateX(70px);
+            transform: translateY(170px);
+        }
+        #three:hover{
+            background-color: maroon;
+            transform: translate3d(90px,100px,20px);
+        }
+        .four{
+            height: 300px;
+            width: 300px;
+            background-color: rgb(220, 97, 25);
+            margin-left: 30px;
+            margin-top: 30px;
+            border: 2px solid rgb(128, 58, 0);
+            float: left;
+        }
+        .four:hover{
+            transform: rotate(50deg);
+        }
+        #five{
+            height: 300px;
+            width: 300px;
+            background-color: rgb(220, 97, 25);
+            margin-left: 30px;
+            margin-top: 30px;
+            border: 2px solid rgb(128, 58, 0);
+            float: left;
+        }
+        #five:hover{
+            transform: rotate(-50DEG);
+        }
+        #six{
+            height: 300px;
+            width: 300px;
+            background-color: rgb(23, 84, 163);
+            margin-left: 30px;
+            margin-top: 30px;
+            border: 2px solid green;
+            float: left;
+        }
+        #six:hover{
+            transform: scale(3,2);/*(width,height)*/
+        }
+        #seven{
+            height: 300px;
+            width: 300px;
+            background-color: rgb(114, 163, 23);
+            margin-left: 30px;
+            margin-top: 30px;
+            border: 2px solid green;
+            float: left;
+        }
+        #seven:hover{
+            transform: skew(-20deg);
+        }
+        #eight{
+            height: 300px;
+            width: 300px;
+            background-color: rgb(31, 69, 165);
+            margin-left: 30px;
+            margin-top: 30px;
+            border: 2px solid rgb(6, 61, 93);
+            float: left;
+        }
+        #eight:hover{
+           transform:  matrix(2,-0.3,0,2,150,0);
+           transition: 05s ease;
+        }
+    </style>
+</head>
+<body>
+    <div id="one"></div>
+    <div id="two"></div>
+    <div id="three"></div>
+    <!--ROTATE()-->
+    <div class="four"><h1>ROTATE</h1></div>
+    <div id="five">ROTATE</div>
+    <div id="six"><h1>SCALE</h1></div>
+    <div id="seven"><h1>skew</h1></div>
+    <div id="eight"><h1>Matrix</h1></div> <!--MATRIX(SCALEX(), SKEWY() , SKEWX() , SCALEY() , TRANSLATEX() TRANSLATEY())-->
+</body>
+</html>

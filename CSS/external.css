@@ -1,0 +1,53 @@
+.external{
+    font-size: 40px;
+    border: 20px;
+    border-radius: 20px;
+    background-color: antiquewhite;
+}
+#ac{
+    font-size: 100px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:  hwb(60 0% 0%);
+    background-color: blue;
+    border-radius: 30%;
+    height: 150px;
+    width: 50%
+}
+span{
+    font-size: 80px;
+    color: blue;
+    border-radius: 20px;
+}
+p2{
+    height: 20%;
+    color: brown;
+}
+{
+    font-size: 80px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+input[type]{
+    color: brown;
+    font-size: 80px;
+    height:5% ;width: 30%;
+}
+a[href]{
+    font-size: 50px;
+    height: 40%;
+    color: brown;
+    background-color: antiquewhite;
+}
+a link{
+    color:rgb(74, 26, 231);
+    width: 130px;
+}
+a :visited{
+    color:yellow
+}
+a:hover{
+    color:aqua;
+    font-size: 300%;
+}
+a:active{
+    color: bisque;
+}

@@ -1,0 +1,148 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+body{
+    background-color: rgb(211, 231, 248);
+}
+.top{
+    height: 64px;
+    width: 100%;
+    background-color: royalblue;
+    color: aliceblue;
+    text-align: center;
+    padding-top: 29px;
+}
+.city{
+    font-size: 30px;
+    margin:24px 0px 0px 40px;
+}
+input{
+    height: 40px;
+    width: 500px;
+    margin-left: 40px;
+    padding-left: 15px;
+    font-size: 20px;
+    background-color: aliceblue;
+}
+.search{
+    margin-top: 35px;
+    margin-left: 40px;
+    background-color: royalblue;
+    height: 40px;
+    width: 500px;
+    font-size: 23px;
+    color: aliceblue;
+    padding-left: 200px;
+}
+hr{
+    width: 210px;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+p{
+    position: relative;
+    bottom: 13px;
+    left: 270px;
+    font-size: 20px;
+}
+.hr2{
+    position: relative;
+    bottom: 54px;
+    left: 270px;
+    width: 227px;
+}
+.Location{
+    padding-left: 130px;
+    background-color: rgb(97, 91, 91);
+    color: aliceblue;
+}
+.right{
+    height: 220px;
+    width: 990px;
+    background-color: royalblue;
+    float: right;
+    position: relative;
+    bottom: 285px;
+    right: 60px;
+}
+.london{
+    margin:10px 0px 0px 25px;
+    color: aliceblue;
+}
+P1{
+font-size: 24px;
+line-height:40px;
+color: aliceblue;
+margin-left: 20px;
+padding-left: 30px;
+}
+.rain{
+    height: 150px;
+    width: 150px;
+    position: relative;
+    bottom: 170px;
+    right: -620px;
+}
+p2{
+    font-size: 30px;
+    color: aliceblue;
+    position: relative;
+    bottom: 150px;
+    left:460px ;
+}
+.down{
+    height:400px ;
+    width: 980px;
+    float: right;
+    position: relative;
+    bottom: 200px;
+    right: 60px;
+}
+.day{
+    position: relative;
+    left: 650px;
+    bottom: 40px;
+}
+.one{
+    height: 300px;
+    width:227px;
+    background-color: blueviolet;
+    border-radius: 10px;
+    margin-right: 18px;
+    float: left;
+}
+p3{
+    font-size: 30px;
+    color: aliceblue;
+    position: relative;
+    top: 15px;
+    left: 25px;
+}
+.image{
+    height: 110px;
+    width: 100px;
+    margin-left: 62px;
+}
+p4{
+    color: aliceblue;
+    font-size: 25px;
+    position: relative;
+    top: 20px;
+    left: 30px;
+   }
+   p5{
+    color: aliceblue;
+    font-size: 25px;
+    position: relative;
+    bottom: -20px;
+    left: 30px;
+   }
+   p6{
+    color: aliceblue;
+    font-size: 25px;
+    position: relative;
+    bottom: 17px;
+    left: 30px;
+   }

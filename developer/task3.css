@@ -1,0 +1,158 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.outer{
+    height: 100%;
+    width: 100%;
+    background-color: lightgray;
+}
+center{
+    font-size: 60px;
+    font-weight: bolder;
+    padding-top: 25px;
+}
+.one{
+    height: 350px;
+    width: 380px;
+    float: left;
+    margin-left: 500px;
+    margin-top: 50px;
+    border:3px solid black;
+    background-color: white;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.one_top{
+    height: 50px;
+    width: 377px;
+    background-color: rgb(224, 13, 157);
+}
+.two{
+    height: 350px;
+    width: 380px;
+    float: left;
+    margin-left: 100px;
+    margin-top: 50px;
+    border:3px solid black;
+    background-color: white;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.four{
+    height: 350px;
+    width:380px ;
+    float: left;
+    background-color: white;
+    margin-top:80px ;
+    margin-left:500px ;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.five{
+    height: 350px;
+    width:380px ;
+    float: left;
+    background-color: white;
+    margin-top:80px ;
+    margin-left:100px ;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+.two_top{
+    height: 50px;
+    width: 377px;
+    background-color:aqua;
+}
+.three_top{
+    height: 50px;
+    width: 377px;
+    background-color: rgb(68, 165, 53);
+}
+.four_top{
+    height: 50px;
+    width: 380px;
+        background-color: rgb(238, 223, 20);
+    }
+.five_top{
+    height: 50px;
+    width: 380px;
+    background-color: rgb(231, 20, 238);
+}
+.six_top{
+    height: 50px;
+    width: 380px;
+    background-color:rgb(215, 137, 149);
+}
+.btn{
+    height: 60px;
+    font-size: 30px;
+    width: 250px;
+    text-align:center;
+    border: 10px solid palevioletred;
+    background-color:palevioletred;
+    border-radius: 20px;
+    position: relative;
+    bottom: -181px;
+    left: -380px;
+}
+#icon1{
+
+    font-size: 62px;
+    position: relative;
+    top: 20px;
+    left: -30px;
+    border-radius: 100%;
+    height: 80px;
+    width: 80px;
+}
+.circle{
+    border: 50px solid rgb(149, 48, 48);
+    height:100px;
+    width: 90px;
+    border-radius: 100%;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.circle2{
+    border: 50px solid rgb(15, 230, 241);
+    height:100px;
+    width: 90px;
+    border-radius: 100%;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.ico1{
+    position: relative;
+    top:-20px;
+}
+.circle3{
+    border: 50px solid rgb(68, 165, 53);
+    height:100px;
+    width: 90px;
+    border-radius: 100%;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.ico3{
+    position: relative;
+    top:-4px;
+    right: 25px;
+    font-size: 30px;
+}
+.head{
+    padding-left: 25px;
+}
+p{
+    padding: 20px;
+    font-size: 20px;
+    text-align: justify;
+}
+.support{
+ position: relative;
+ right: 30px;
+ bottom: 15px;
+ margin-left: -20px;
+}

@@ -1,0 +1,117 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.part1{
+    height: 350px;
+    width:100%; /*2120px;*/
+    background-color: white;
+}
+.part2{
+    height: 717px;
+    width: 100%;
+    background-color: rgb(107, 162, 181);
+}
+.one{
+    height:550px;
+    width: 420px;
+    float: left;
+    background-color: white;
+    box-shadow: 04px 02px 12px black;
+    position: relative;
+    top: -80px;
+    left: 105px;
+}
+.two{
+    height:550px;
+    width: 420px;
+    float: left;
+    background-color: white;
+    box-shadow: 04px 02px 12px black;
+    position: relative;
+    top: -200px;
+    left: 190px;
+
+}
+.three{
+    height:550px;
+    width: 420px;
+    float: left;
+    background-color: white;
+    box-shadow: 04px 02px 12px black;
+    position: relative;
+    top: -80px;
+    right: -290px;
+
+}
+.four{
+    height:550px;
+    width: 420px;
+    float: left;
+    background-color: white;
+    box-shadow: 04px 02px 12px black;
+    position: relative;
+    top: -190px;
+    left: 370px;
+
+}
+.foot{
+    position:relative;
+    right: 60px;
+    top: -28px;
+}
+.prog{
+    font-size: 35px;
+    position: relative;
+    top: -70px;
+    left: 100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+p{
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+    bottom: 59px;
+}
+.more{
+    font-size: 38px;
+    text-align: center;
+    position: relative;
+    bottom: 30px;
+    left: 150px;
+}
+.res{
+    position: relative;
+    right: -10px;
+    height: 220px;
+    top: -20px;
+}
+.result{
+    font-size: 35px;
+    position: relative;
+    bottom: 25px;
+    left: 115px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.coaching{
+    height: 180px;
+    position: relative;
+    left: 30px;
+}
+.COA{
+    position: relative;
+    left: 115px;
+    top: 5px;
+    margin-bottom: 90px;
+}
+.eve{
+    position: relative;
+    top: -62px;
+    left: -10px;
+}
+.Events{
+    position: relative;
+    bottom: 60px;
+    left: 140px;
+}

@@ -1,0 +1,151 @@
+.outer{
+    height:500px;
+    width: 600px;
+background-color: black
+;}
+.upper{
+    height: 100px;
+    width: 600px;
+background-color: antiquewhite;}
+.up_left{
+    height: 100px;
+    width: 100px;
+background-color: aqua;    float: left;
+}
+.up_right{
+    height: 100px;
+    width: 100px;
+    float: right;
+background-color: aquamarine;
+}
+.up_up{
+    height: 50px;
+    width: 100px;
+background-color: blueviolet;
+}
+
+.up_le{
+    height: 50px;
+    width: 50px;
+background-color: rgb(234, 234, 14);    float: left;
+
+}
+.up_ri{
+    height: 50px;
+    width: 50px;
+    float: right;
+    background-color: brown;
+}
+.inner_le{
+    height: 400px;
+    width: 100px;
+    background-color: blueviolet;
+    float: left;
+
+}
+.inner_top{
+    height: 100px;
+    width: 500px;
+    background-color: pink;
+    float: right;
+
+}
+.innerle2{
+    height: 300px;
+    width: 100px;
+    background-color: maroon;
+    float: left;
+}
+.innerle3{
+    background-color: peru;
+    height: 300px;
+    width: 100px;
+    float: left;
+}
+.innerle4{
+    background-color: rgb(142, 237, 27);
+    height: 100px;
+    width: 300px;
+    float: right;
+}
+.innerle5{
+    background-color: aquamarine;
+    float: left;
+    height: 200px;
+    width: 100px;
+}
+.innerle6{
+    background-color: #dcbd0d;
+    float: left;
+    height: 200px;
+    width: 100px;
+}
+.inner_right{
+    background-color: #0f3fba;
+    float: left;
+    height: 200px;
+    width: 100px;
+}
+.inner_le_1{
+    height:300px;
+    width: 100px;
+    background-color: rgb(219, 98, 23);
+}
+.inner_le_1i{
+    height: 100px;
+    width: 50px;
+    background-color: rgb(230, 179, 12);
+    float: left;
+}
+.inner_le_1ii{
+    height: 100px;
+    width: 50px;
+    background-color: rgb(70, 230, 12);
+    float: right;
+}
+.inner_le_2i{
+    height: 200px;
+    width: 50px;
+    background-color: rgb(234, 29, 64);
+    float: left;
+}
+.inner_le_2ii{
+    height: 200px;
+    width: 50px;
+    background-color: rgb(148, 98, 106);
+    float: right;
+}
+.innerle_5_top{
+    height: 100px;
+    width: 100px;
+    background-color: palevioletred;
+}
+.innerle_5_down{
+    height: 100px;
+    width: 50px;
+    background-color: rgb(183, 0, 255);
+    float: left;
+}
+.innerle_5i_down{
+    height: 100px;
+    width: 50px;
+    background-color: rgb(211, 110, 59);
+    float: left;
+}
+.inner_right_top{
+    height: 100px;
+    width: 100px;
+    background-color: bisque;
+}
+.inner_ri_down{
+    height: 100px;
+    width: 50px;
+    background-color: rgb(226, 10, 10);
+    float: left;
+}
+.inner_ri_down2{
+    height: 100px;
+    width: 50px;
+    background-color: rgb(72, 150, 62);
+    float: left;
+}

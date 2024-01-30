@@ -1,0 +1,201 @@
+<div class="wrap">
+	<h2 class="title">
+		Complex layout with div
+	</h2>
+	<button class="btn-show">Toggle Border</button>
+	<div class="container card clearfix">
+		<div class="float-left structure-1">
+			<div class="block clearfix">
+				<div class="float-left element a">
+					<div class="content">
+						A
+					</div>
+				</div>
+				<div class="float-left element b">
+					<div class="content">
+						B
+					</div>
+				</div>
+			</div>
+			<div class="block clearfix">
+				<div class="float-left structure-1-2-1">
+					<div class="element c">
+						<div class="content">
+							C
+						</div>
+					</div>
+					<div class="element d">
+						<div class="content">
+							D
+						</div>
+					</div>
+				</div>
+				<div class="float-left structure-1-2-2">
+					<div class="element e">
+						<div class="content">
+							E
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="float-left structure-2">
+			<div class="element f">
+				<div class="content">
+					F
+				</div>
+			</div>
+		</div>
+		<div class="float-left structure-3">
+			<div class="element g">
+				<div class="content">
+					G
+				</div>
+			</div>
+			<div class="element h">
+				<div class="content">
+					H
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+$gutter: 20px;
+$dot: 100px;
+
+@mixin legoHeight($dotCount) {
+	height: $dotCount * ($dot + $gutter);
+}
+
+.container,
+.element {
+    padding: $gutter / 2;
+}
+
+.clearfix {
+	&:before, &:after { content: " "; display: table; }
+	&:after { clear: both; }
+}
+
+.float-left {
+	float: left;
+}
+
+.element,
+.content {
+	box-sizing: border-box;
+}
+
+.content {
+	height: 100%;
+}
+
+.structure-1 {
+	width: percentage(5/9);
+}
+
+.structure-2,
+.structure-3 {
+	width: percentage(2/9);
+}
+
+.a,
+.b {
+	@include legoHeight(2);
+}
+
+.a {
+	width: percentage(2/5);
+}
+
+.b {
+	width: percentage(3/5);
+}
+
+.structure-1-2-1 {
+	width: percentage(1/5);
+}
+
+.structure-1-2-2 {
+	width: percentage(4/5);
+}
+
+.c,
+.d {
+	@include legoHeight(1);
+}
+
+.e {
+	@include legoHeight(2);
+}
+
+.f {
+	@include legoHeight(4);
+}
+
+.g {
+	@include legoHeight(3);
+}
+
+.h {
+	@include legoHeight(1);
+}
+
+@media (max-width: 1000px) {
+	.structure-1-2-1,
+	.structure-1-2-2 {
+		float: none;
+		width: 100%;
+	}
+	.a,
+	.b,
+	.e {
+		@include legoHeight(1);
+	}
+}
+
+@media (max-width: 768px) {
+	.structure-1,
+	.structure-2,
+	.structure-3 {
+		float: none;
+		width: 100%;
+	}
+	.structure-1-2-1,
+	.structure-1-2-2 {
+		float: left;
+	}
+	.structure-1-2-1 {
+		width: percentage(1/5);
+	}
+	.structure-1-2-2 {
+		width: percentage(4/5);
+	}
+	.a,
+	.b,
+	.e {
+		@include legoHeight(2);
+	}
+}
+
+@media (max-width: 600px) {
+	.structure-1-2-1,
+	.structure-1-2-2 {
+		float: none;
+		width: 100%;
+	}
+	.a,
+	.b,
+	.e {
+		@include legoHeight(1);
+	}
+}
+
+@media (max-width: 350px) {
+	.a,
+	.b {
+		float: none;
+		width: 100%;
+	}
+}
+

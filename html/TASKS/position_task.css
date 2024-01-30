@@ -1,0 +1,255 @@
+.c1{
+    height: 375px;
+    width: 250px;
+    border: 5px groove black;
+    float: left;
+}
+.c1_in{
+height: 290px;
+border: 2px groove black;
+margin-left:10px ;
+margin-right:10px ;
+}
+.c1_a{
+height: 90px;
+width: 115px;
+background-color: rgb(65, 187, 240);
+border:3px solid rgb(17, 0, 255);
+}
+.c1_b{
+height: 96.7px;
+width: 115px;
+background-color: rgb(50, 197, 87);
+border:3px solid rgb(0, 255, 76);
+position: static;
+
+}
+.c2{
+    height: 375px;
+    width: 250px;
+    border: 5px groove black;
+    float: left;
+    margin-left: 1px;
+
+}
+.c2_in{
+    height: 290px;
+border: 2px groove black;
+margin-left:10px ;
+margin-right:10px ;
+}
+.c2_b{
+    height: 96.7px;
+    width: 115px;
+    background-color: rgb(50, 197, 87);
+    border:3px solid rgb(0, 255, 76);
+    position: relative;
+    top: 30px;
+    left: 40px;
+}
+.c2_c{
+    height: 90px;
+    width: 115px;
+    background-color: rgb(65, 187, 240);
+    border:3px solid rgb(17, 0, 255);
+    position: absolute;
+    
+    }
+    .c3{
+        height: 375px;
+        width: 250px;
+        border: 5px groove black;
+        float: left;
+    }
+    .c3_in{
+        height: 290px;
+    border: 2px groove black;
+    margin-left:10px ;
+    margin-right:10px ;
+    position: relative;
+    }
+    .c3_b{
+        height: 96.7px;
+        width: 115px;
+        background-color: rgb(50, 197, 87);
+        border:1px solid rgb(0, 255, 76);
+        position: absolute;
+        right: 0px;
+    }
+    .c3_c{
+        height: 96.7px;
+        width: 115px;
+        background-color: rgb(65, 187, 240);
+        border:1px solid rgb(17, 0, 255);
+        position: absolute;
+        left:0px;
+    }
+    .c4{
+        height: 375px;
+        width: 250px;
+        border: 5px groove black;
+        float: left;
+    }
+    .c4_in{
+        height: 290px;
+    border: 2px groove black;
+    margin-left:10px ;
+    margin-right:10px ;
+    }
+    .c4_a{
+        height: 93;
+        width: 120px;
+        border:1px groove black;
+        background-color: rgb(65, 187, 240);
+        position: ;
+        top: 50px;
+        
+    }
+    .c4_b{
+        height: 96.7px;
+        width: 115px;
+        background-color: rgb(50, 197, 87);
+        border:3px solid rgb(0, 255, 76);
+        position: fixed;
+        top: 0px;
+        right: 0px;
+    }
+    .ci{
+        height: 375px;
+        width: 250px;
+        border: 5px groove black;
+        float: left;
+    }
+    .ci_in{
+        height: 290px;
+        border: 2px groove black;
+        margin-left:10px ;
+        margin-right:10px ;
+        overflow: scroll;
+
+     }
+     .ci_a{
+        height: 90px;
+        width: 115px;
+        background-color: rgb(65, 187, 240);
+        border:3px solid rgb(17, 0, 255);
+        position: relative;
+        top: 50px;
+        }
+    .ci_c{
+            height: 90px;
+            width: 115px;
+            background-color: rgb(65, 187, 240);
+            border:3px solid rgb(17, 0, 255);
+            position: relative;
+     }
+     .ci_b{
+        height: 96.7px;
+        width: 115px;
+        background-color: rgb(50, 197, 87);
+        border:3px solid rgb(0, 255, 76);
+        position: sticky;
+        top:0px;  
+        }
+        .cii{
+            height: 375px;
+            width: 250px;
+            border: 5px groove black;
+            float: left;
+        }
+        .cii_in{
+            height: 290px;
+            border: 2px groove black;
+            margin-left:10px ;
+            margin-right:10px ;
+            overflow: scroll;
+            bottom: 0px;
+        }
+         .ciii{
+            height: 375px;
+            width: 250px;
+            border: 5px groove black;
+            float: left;
+        }
+        .ciii_in{
+            height: 290px;
+            border: 2px groove black;
+            margin-left:10px ;
+            margin-right:10px ;
+            overflow: auto;
+            overflow: scroll;
+
+         }
+         .civ{
+            height: 375px;
+            width: 250px;
+            border: 5px groove black;
+            float: left;
+        }
+        .civ_in{
+            height: 290px;
+            border: 2px groove black;
+            margin-left:10px ;
+            margin-right:10px ;
+            overflow: scroll;
+            overflow: auto;
+         }
+         .cii_b{
+            height: 96.7px;
+            width: 115px;
+            background-color: rgb(50, 197, 87);
+            border:3px solid rgb(0, 255, 76);
+            position: sticky;
+            bottom:0px;  
+            }
+            .ciii_a{
+                height: 96.7px;
+                width: 115px;
+                background-color: rgb(65, 187, 240);
+                border:3px solid rgb(17, 0, 255);
+                float: left;
+            }
+         .ciii_b{
+            height: 96.7px;
+            width: 115px;
+            background-color: rgb(50, 197, 87);
+            border:3px solid  rgb(0, 255, 76);
+            float: left;
+            position: sticky;
+            left: 0px;
+     }
+     .ciii_c{
+        height: 96.7px;
+        width: 115px;
+        background-color: rgb(65, 187, 240);
+        border:3px solid rgb(17, 0, 255);
+        float: left;
+ }
+ .inn{
+    height: 96.7px;
+    width:490px;
+    border: 2px solid balck;
+ }
+ .civ_a{
+    height: 96.7px;
+    width: 115px;
+    background-color: rgb(65, 187, 240);
+    border:3px solid rgb(17, 0, 255);
+    float: left;
+}
+.civ_b{
+    height: 96.7px;
+    width: 115px;
+    background-color: rgb(50, 197, 87);
+    border:3px solid  rgb(0, 255, 76);
+    float: left;
+    position: sticky;
+    right: 0px;
+}
+.civ_c{
+    height: 96.7px;
+    width: 115px;
+    background-color: rgb(65, 187, 240);
+    border:3px solid rgb(17, 0, 255);
+    float: left;
+}

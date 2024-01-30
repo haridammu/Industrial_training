@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media_queries</title>
+  <style>
+    body{
+        background-color: aquamarine;
+    }
+      #one{
+        height: 30px;
+        width: 60px;
+        background-color: bisque;
+        margin: 400px;
+    }
+    div{
+        border: 2px solid black;
+        text-align: center;
+        font-size: 25px;
+        padding-bottom: 50px;
+        padding-right: 50px;
+        padding-left: 50px;
+
+        height: 50px;
+    }
+    @media screen and (max-width:600px) and (min-width:0px)   {
+        body{
+            background-color: blueviolet;
+        }
+        p{
+            color: brown;
+            position: static;
+        }
+    }
+  </style>
+</head>
+<body>
+    <div id="one"><p>screen</p></div>
+</body>
+</html>

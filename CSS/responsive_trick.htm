@@ -1,0 +1,130 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsiveness</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        body{
+            width:900px;
+            height:500px;
+        }
+        .up_left{
+            height: 350px;
+            width: 400px;
+            background-color: darkgreen;
+            float: left;
+
+        }
+        .one{
+            height: 175px;
+            width: 210px;
+            background-color: royalblue;
+            float: left;
+
+        }
+        .two{
+            height: 175px;
+            width: 210px;
+            background-color:maroon;
+            float: left;
+        }
+        .three{
+            height: 175px;
+            width: 210px;
+            background-color:rgb(225, 206, 36);
+            float: left;
+        }
+        .four{
+            height: 175px;
+            width: 210px;
+            background-color:rgb(211, 13, 171);
+            float: left;
+        }
+        .onee{
+            height: 175px;
+            width: 200px;
+            background-color: royalblue;
+            position: relative;
+            top: 350px;
+            left: -350px;
+        }
+        .twoo{
+            height: 175px;
+            width: 200px;
+            background-color:maroon;
+            position: relative;
+            top: 175px;
+            right: 150px;
+        }
+        .threee{
+            height: 175px;
+            width: 200px;
+            background-color:rgb(225, 206, 36);
+            position: relative;
+            bottom: -175px;
+            right: 350px;
+        }
+        .fourr{
+            height: 175px;
+            width: 200px;
+            background-color:rgb(211, 13, 171);
+            position: relative;
+            right: 150px;
+ }
+ .down_ryt{
+            height: 350px;
+            width: 419px;
+            background-color: darkgreen;
+            float: right;
+            position: relative;
+            bottom: 350px;
+            right:81px;
+
+        }
+        div{
+            outline: 2px solid black;
+            
+        }
+        /*@media screen and (max-width:1200px) {
+        .up_left,.one,.two,.three,.four,.onee,.twoo,.threee,.fourr,.down_ryt{
+            width: 100%;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+            gap:2rem;
+        }            
+        }*/
+        @media screen and (ma) {
+            
+        }
+    </style>
+</head>
+<body>
+   <center>
+    <div class="upper">
+        <div class="up_left"></div>
+        <div class="up_ryt">
+            <div class="one"></div>
+            <div class="two"></div>
+            <div class="three"></div>
+            <div class="four"></div>
+        </div>
+    </div>
+    <div class="down">
+        <div class="down_left">
+            <div class="onee"></div>
+            <div class="twoo"></div>
+            <div class="threee"></div>
+            <div class="fourr"></div>
+            <div class="down_ryt"></div>
+        </div>
+
+
+    </div>
+   </center>
+</body>
+</html>

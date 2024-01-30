@@ -1,0 +1,100 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media_transform</title>
+    <style>
+        #one{
+           
+            background-color: rgb(25, 220, 155);            /*TRANSFORM---
+                                                                            TRANSLATE(),ROTATE(),SCALE(),Skew(),Matrix()
+                                                                                */
+           
+        }
+        #two{
+           
+            background-color: rgb(25, 220, 155);
+           
+        }
+        #three{
+           
+            background-color: rgb(25, 220, 155);
+           
+        }
+        #four{
+           
+            background-color: rgb(220, 97, 25);
+           
+        }
+        #five{
+           
+            background-color: rgb(220, 97, 25);
+           
+        }
+        #six{
+           
+            background-color: rgb(23, 84, 163);
+           
+        }
+       
+        #seven{
+           
+            background-color: rgb(114, 163, 23);
+           
+        }
+        #eight{
+           
+            background-color: rgb(31, 69, 165);
+           
+        }
+        div{
+            display: inline;
+            float: left;
+            height: 30%;
+            width: 20%;
+            outline: 2px solid black;
+        }
+        @media screen and  (min-width:960px) and (max-width:1200px){
+            #one,#two,#three,#four,#five,#six,#seven,#eight{
+                width:20%;
+            }
+        }
+       @media screen and (min-width:620px) and (max-width:960px){
+        #one,#two,#three,#four,#five,#six,#seven,#eight{
+                width: 25%;
+            }
+        }
+        @media screen and (min-width:380px) and (max-width:620px){
+        #one,#two,#three,#four,#five,#six,#seven,#eight{
+                width: 33%;
+            }
+        }
+        @media screen and (min-width:140px) and (max-width:380px){
+        #one,#two,#three,#four,#five,#six,#seven,#eight{
+                width: 50%;
+            }
+        }
+        @media screen and (min-width:0px) and (max-width:140px){
+        #one,#two,#three,#four,#five,#six,#seven,#eight{
+                width: 100%;
+            }
+        }
+      /*  @media screen and  (max-width:px) 
+        {
+            #one,#two,#three,#four,#five,#six,#seven,#eight{
+                width: 80%;}
+         }*/
+    </style>
+</head>
+<body>
+    <div id="one"></div>
+    <div id="two"></div>
+    <div id="three"></div>
+    <!--ROTATE()-->
+    <div id="four"></div>
+    <div id="five"></div>
+    <div id="six"></div>
+    <div id="seven"></div>
+    <div id="eight"></div> <!--MATRIX(SCALEX(), SKEWY() , SKEWX() , SCALEY() , TRANSLATEX() TRANSLATEY())-->
+</body>
+</html>

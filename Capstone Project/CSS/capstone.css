@@ -1,0 +1,536 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.top{
+    background-color: rgb(18, 18, 139);
+    height: 90px;
+    color: white;
+    width: 100%;
+}
+.logo{
+    color: white;
+padding-left: 19px;
+    padding-top: 30px;
+    float: left;
+    font-size: 20px;
+}
+.menu{
+color: #dee1e4;
+background-image: url();
+font-size: 80px;
+padding-left: -21020px;
+float:right;
+
+}
+.part1{
+    background-image: url(/IMAGES/theme.jpeg);
+    background-size: cover;
+    height: 1200px;
+    width: 100%;
+}
+h2{
+    font-size: 100px;
+    color: wheat;
+}
+span{
+    font-size: 80px;
+    color: white;
+    padding-left:50% ;
+    text-align: center;
+}
+p{
+    text-align: center;
+    font-size:25px ;
+    color: white;
+}
+.btn1{
+    border: 20px solid white;
+    border-radius: 30px;
+    width: 250px;
+    font-size: 18px;
+    color: blue;
+    }
+        
+.btn{
+        border: 20px solid blue;
+        border-radius: 30px;
+        width: 250px;
+        background-color: blue;
+        margin-left: 18px;
+        color: white;
+        font-size: 18px;
+        }
+img{
+    height: 750px;
+    width: 1000px;
+    padding-left: 280px;
+
+}
+.part2{
+    height: 1400px;
+    width: 100%;
+    background-color: rgb(30, 15, 106);
+}
+p1{
+    font-size: 60px;
+    color: gold;
+    font-family:cursive;
+    padding-left: 40px;
+    position: absolute;
+    left: 400px;
+    top: 1900px;
+}
+p2{
+    font-size: 39px;
+    color: gold;
+    padding-left: 130px;
+    position: absolute;
+    left: 600px;
+    top: 2000px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.img2{
+    height: 650px;
+    width: 700px;
+    position: absolute;
+    right: 600px;
+    top: 1400px;
+}
+b{
+    font-size: 100px;
+    color: rgb(225, 171, 36);
+    position: absolute;
+    right: 700px;
+    bottom:-780px;
+}
+.line{
+    border: 5px solid gold;
+    height: 20px;
+    width: 600px;
+    background-color:rgb(225, 171, 36);
+    position: absolute;
+    right: 600px;
+    bottom: -850px;
+}
+p3{
+    font-size: 40px;
+    color: white;
+    position: absolute;
+    right: 590px;
+    bottom: -1050px;
+}
+.btn3{
+    font-size: 45px;
+    color: blue;
+    border: 6px solid gold;
+    border-radius: 60px;
+    background-color: gold;
+    height: 94px;
+    width: 500px;
+    position: relative;
+    top: 1150px;
+    left: 1650px;
+}
+.part3{
+    height: 1000px;
+    width: 100%;
+    background-image: url(/IMAGES/theme.jpeg);
+    background-size: cover;
+}
+.img3{
+    height: 1000px;width: 1300px;   
+    position: absolute;
+    right: 100px;      
+}
+.live{
+    font-size: 100px;
+    color:rgb(242, 234, 234);
+    font-weight:1000;
+    position: relative;
+    bottom: -200px;
+    display: inline;
+    left: 600px;
+}
+p5{
+    font-size: 40px ;
+    position: relative;
+    bottom:-250px; 
+    left: 40px;
+    font-weight: 800;
+    color: aliceblue;
+    font-family: unset;
+}
+.premium{
+    font-size: 90px;
+    position: relative;
+    bottom: -400px;
+    left: 500px;
+}
+.sample{
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    left: 560px;
+    bottom: -2150px;
+}
+.part4{
+    height: 1300px;
+    width: 100%;
+    background-color: rgb(30, 15, 106);
+}
+.how{
+    font-size: 100px;
+    color: gold;
+    padding-left: 70px;
+    padding-top: 50px;
+   
+}
+.user{
+    height: 850px;
+    width: 900px;
+    float: left;
+    padding-left: 70px;
+
+
+}
+.hand{
+    height: 850px;
+    width: 900px;
+    float: left;
+}
+.download{
+    height: 850px;
+    width: 900px;
+    float:left;
+}
+.user_in{
+    font-size: 60px;
+    width: 1200px;
+    position: relative;
+    left: -450px;
+    top: -150px;
+}
+.create{
+    font-size: 60px;
+    color: gold;
+    position: relative;
+    top: -400px;
+    left: 100px;
+}
+.hand_in{
+    font-size: 60px;
+    width: 1200px;
+    position: relative;
+    bottom: 230px;
+    right: 350px;
+}
+.download_in{
+    width: 1400px;
+    height: 850px;
+    position: relative;
+    top: -340px;
+    right: 500px;
+}
+.create2{
+    font-size: 60px;
+    text-align: center;
+    color: gold;
+    position: relative;
+    top:-400px ;
+}
+.create3{
+    font-size: 60px;
+    text-align: center;
+    color: gold;
+    position: relative;
+    top:-500px ;
+    
+}
+.xx{
+    font-size: 60px;
+    color: white;
+    position: relative;
+    bottom: 400px;
+    left: 80px;
+    text-indent: 0px;
+}
+.x{
+    font-size: 60px;
+    color: white;
+    position: relative;
+    bottom:500px;
+    left: 100px;
+}
+.btn4{
+    font-size: 45px;
+    color: blue;
+    border: 6px solid gold;
+    border-radius: 60px;
+    background-color: gold;
+    height: 94px;
+    width: 500px;
+    position: relative;
+    top: 50px;
+    left: 150px;
+}
+.part5{
+    height: 1200px;
+    width: auto;
+    background-image: url(/IMAGES/theme.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.radio{
+height: 1000px;
+width: 1200px;
+position:relative;
+left:-300px;
+bottom: 70px;
+}
+.Music2{
+    font-size: 120px;
+    font-weight:900 ;
+    color:white;
+    position: relative;
+    right: -1730px;
+    top: 200px;
+
+}
+.play{
+    font-size:40px;
+    color: white    ;
+    position: relative;
+    top:220px;
+    right:-1730px;
+}
+.sample1{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    position: relative;
+    left: 1720px;
+    top: 300px;
+}
+.btn5{
+    font-size: 45px;
+    color: blue;
+    border: 6px solid gold;
+    border-radius: 60px;
+    background-color: gold;
+    height: 94px;
+    width: 500px;
+    position: relative;
+    bottom: 350px;
+    left: 150px;
+}
+.part6{
+    height: 1400px;
+    width:100%;
+    background-color: rgb(30, 15, 106) ;
+}
+.part6left{
+    height: 400px;
+    width: 900px;
+    float: left;
+    background-color: rgb(30, 15, 106)  ;
+}
+.part6right{
+    height: 400px;
+    width: 1500px;
+    float: right;
+    margin-right: 40px;
+    margin-top: 70px;
+    background-color: rgb(30, 15, 106)  ;
+}
+.our{
+    font-size: 100px;
+    color: gold;
+    position: relative;
+    left: 70px;
+    top: 100px;
+    }
+.content{
+    font-size: 40px;
+    color: white;
+    text-align:justify;
+    line-height: 55px;
+    }
+.btn6{
+    font-size: 45px;
+    color: blue;
+    border: 6px solid gold;
+    border-radius: 60px;
+    background-color: gold;
+    height: 94px;
+    width: 500px;
+    position: relative;
+    bottom: -02px;
+    left:1350px;
+}
+.part6a{
+    height: 500px;
+    width: 380px;
+    float: left;
+    margin-left: 230px;
+    margin-top: 200px;
+}
+.part7{
+    height: 1400px;
+    width: 100%;
+    margin-top: -100px;
+    background-image: url(/IMAGES/theme.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+}
+.contact{
+    height: 1000px;
+    width: 2000px;
+    background-color: rgb(124, 211, 213);
+    margin-left: 500px;
+    position: relative;
+    top: 200px;
+}
+.info{
+    height: 800px;
+    width: 1600px;
+    margin: 100px  200px 100px 200px;
+    position: relative;
+    top: 100px;
+}
+.info_left{
+    height: 800px;
+    width: 800px;
+    float: left;
+}
+.info_right{
+    height: 800px;
+    width: 780px;
+    float: right;
+}
+.CI{
+    font-size: 70px;
+    color: rgb(23, 23, 83);
+    margin: 50px;
+}
+.calll{
+    height: 150px;
+    width: 165px;
+    position: relative;
+    top: -80px;
+    left: -260px;
+}
+.num{
+    font-size: 50px;
+    color: black;
+    margin-top:-170px;
+    margin-left:-140px;
+}
+.msg{
+    height: 80px;
+    width: 95px;
+    position: relative;
+    top: -4px;
+    left: -230px;
+}
+.mail{
+    font-size: 50px;
+    color: black;
+    margin-top:-75px;
+    margin-left:-01px;
+}
+.loc{
+    height: 135px;
+    width: 95px;
+    position: relative;
+    top: -4px;
+    left: -230px;
+}
+.area{
+    font-size: 40px;
+    color: black;
+    position: relative;
+    bottom: 100px;
+    right: -180px;
+    text-align: justify;
+}
+.fb{
+    font-size: 90px;
+    color:#430df6;
+    position: relative;
+    bottom: 30px;
+    left: -320px;
+}
+.insta{
+    font-size: 90px;
+    color:#e70f57;
+    position: relative;
+    bottom: 130px;
+    left: -180px;
+}
+.tweet{
+    font-size: 90px;
+    color:blue;
+    position: relative;
+    bottom: 220px;
+    left: -80px;
+}
+.yt{
+    font-size: 90px;
+    color:red;
+    position: relative;
+    bottom: 310px;
+    right: -25px;
+}
+.name{
+    border: 20px solid orange;
+    font-size: 30px;
+    text-align: left;
+    height: 50px;
+    display: inline;
+    background-color: orange;
+}.mail_id{
+    border: 2px solid orange;
+    font-size: 30px;
+    text-align: left;
+    height: 30px;
+    width: auto;
+    padding-top: 130px;
+    display: inline;
+    background-color: orange;
+}
+.input{
+    height: 70px;
+    font-size: 35px;
+    width: 100%;
+    border: 10px solid orange;
+    background-color: orange;
+    color:white;
+}
+.input2{
+    height: 110px;
+    font-size: 35px;
+    width: 100%;
+    border: 10px solid orange;
+    background-color: orange;
+    margin-top: 30px;
+    color:white;
+}
+.input3{
+    height: 310px;
+    font-size: 35px;
+    width: 100%;
+    border: 10px solid orange;
+    background-color: orange;
+    margin-top: 30px;
+    color:white;
+}
+.btnlast{
+    height: 70px;
+    font-size: 35px;
+    width: 100%;
+    margin-top: 30px;
+    border: 3px solid rgb(42, 42, 208);
+    background-color:  rgb(10, 10, 110);
+    color:white;
+}
