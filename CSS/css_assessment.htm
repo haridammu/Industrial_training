@@ -1,52 +1,142 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Css_Assessment</title>
-    <link rel="stylesheet" href="css_assessment.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Task</title>
+    <style>
+        body,div{
+            background-color:aliceblue;
+        }
+        .a{
+            height: 40px;
+            width: 1260px;
+            background-color:white;
+        }
+        .b{
+            height: 420px;
+            width: 280px;
+            background-color:rgb(255, 255, 255);
+            margin-top:10px;
+            margin-left: 20px;
+            float: left;
+        }
+        .b1{
+            height: 100px;
+            width: 100px;
+            border-radius: 50px;
+            border-color: blue;
+            border-style: solid;
+        }
+        .c{
+            height: 230px;
+            width: 800px;
+            background-color:white;
+            /* margin-top: -10px; */
+            margin-left: 10px;
+            margin-right: 100px;
+            float: left;
+        }
+        .d{
+            height: 300px;
+            width: 800px;
+            background-color:white;
+            margin-top: 250px;
+            margin-left: 350px;
+            margin-right: 100px;
+        }
+        form{
+            margin-left: 20px;
+        }
+        input{
+            margin-left: 30px;
+            margin-top: 10px;
+            width: 600px;
+            float: right;
+            margin-right: 10px;
+        }
+        h4{
+            margin-top: 15px;
+            margin-left: 10px;
+        }
+        button{
+            border-radius: 5px;
+            color: white;
+            height: 30px;
+            width: 90px;
+        }
+        span{
+            float: right;
+        }
+        #progress-bar-color{
+            background: #000000;
+        }
+        .text{
+            float: left;
+            font-weight: bold;
+            margin-top: 10px;
+            margin-left: 10px;
+        }
+    </style>
 </head>
 <body>
-    <div class="outer">
-        <div class="one">
-            <div class="square">
-            </div>
-            <span class="ic1">
-                <i class="fa-solid fa-flask fa-2xl" style="color: #ffffff;"></i>
-                </span> 
-                <h1>Visualize it</h1>
-                <p>Sample text. Click to select the text box.<br> Click again or double click to start<br> editing the text.</p>
-                <h2 class="line"> </h2>
-                <button>Read More</button>
+    <div class="a"><center>
+        <button style="background-color:lightgreen;border: 2px solid lightgreen;">Preview</button>
+        <button style="background-color:deepskyblue;border: 2px solid deepskyblue;">HTML</button>
+        <button style="background-color:deepskyblue;border: 2px solid deepskyblue;">CSS</button>
+        <button style="background-color:deepskyblue;border: 2px solid deepskyblue;">Download</button>
+        <button style="background-color:crimson;border: 2px solid crimson;">Actions
+        <select style="background-color: crimson;color: white;border: none;"></select></button>
+    </center>     
+    </div><br>
+    <div class="b"><br>
+        <center><div class="b1">
+            <img src="../images/John profile.png" style="border-radius: 150px;height: 100px;width: 100px;">
         </div>
-        <div class="one">
-            <div class="square">
-            </div>
-            <span class="ic1">
-                <i class="fa-solid fa-paintbrush fa-2xl" style="color: #ffffff;"></i>
-                </span> 
-                <h1>Create it</h1>
-                <p>Sample text. Click to select the text box.<br> Click again or double click to start<br> editing the text.</p>
-                <h2 class="line"> </h2>
-                <button>Read More</button>
-
-
-        </div>
-        <div class="one">
-            <div class="square">
-            </div>
-            <span class="ic1">
-                <i class="fa-solid fa-arrow-up-right-dots fa-2xl" style="color: #ffffff;"></i>
-                </span> 
-                <h1>Grow it</h1>
-                <p>Sample text. Click to select the text box.<br> Click again or double click to start<br> editing the text.</p>
-                <h2 class="line"> </h2>
-                <button>Read More</button>
-
-
-        </div>
-
+        <p><b>John Doe</b><br>Full Stack Developer<br>Bay Area,San Francisco,CA </p> 
+        <button style="background-color: blue;color: white;border: 2px solid blue;">Follow</button>
+        <button style="background-color: white;color: deepskyblue;border: 1px solid deepskyblue;">Message</button>
+        </center> <hr>
+        <i class="fa-solid fa-globe"></i>&nbsp;Website
+        <span>https://bootdey.com</span><hr>
+        <i class="fa-brands fa-github"></i>&nbsp;Github 
+        <span>bootdey.com</span><hr>
+        <i class="fa-brands fa-twitter" style="color: deepskyblue;"></i>&nbsp;Twitter 
+        <span>@bootdey</span><hr>
+        <i class="fa-brands fa-instagram" style="color: crimson;"></i>&nbsp;Instagram
+        <span>bootdey</span><hr>
+        <i class="fa-brands fa-facebook" style="color: deepskyblue;"></i>&nbsp;Facebook 
+        <span>bootdey</span>
     </div>
-    
+    <div class="c">
+        <form>
+            <label><b >Full Name</b>
+                <input type="text" placeholder="John Doe"><br>
+                <b >Email</b>
+                <input type="email" placeholder="john@example.com"><br>
+                <b >Phone</b>
+                <input type="number" placeholder="(238)154-8854"><br>
+                <b >Mobile</b>
+                <input type="number" placeholder="(320)154-8854"><br>
+                <b>Address</b>
+                <input type="textarea" placeholder="Bay Area,San Francisco,CA"><br>
+            </label><br>
+            <button style="background-color: rgb(0, 123, 255);margin-left: 80px;margin-top: 10px; width: 120px;border: 2px solid rgb(0, 123, 255);">Save Changes</button>
+        </form>
+    </div>
+    <div class="d">
+        <h4>Project Status</h4>
+        Web Design<br>
+        <progress value = "85" max = "100" style="width: 700px;height: 10px;"></progress><br><br>
+        Website Markup<br>
+        <progress value = "75" max = "100" style="width: 700px;height: 10px;"></progress><br><br>
+        One Page<br>
+        <progress value = "90" max = "100" style="width: 700px;height: 10px;"></progress><br><br>
+        Mobile Template<br>
+        <progress value = "60" max = "100" style="width: 700px;height: 10px;"></progress><br><br>
+        Backend API<br>
+        <progress value = "68" max = "100" style="width: 700px;height: 10px;"></progress><br><br>
+    </div>
 </body>
-</html>
+</html>'
