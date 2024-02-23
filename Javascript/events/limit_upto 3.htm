@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Input Validation</title>
+<style>
+  .error-message {
+    color: red;
+    font-size: 14px;
+  }
+</style>
+</head>
+<body>
+    <p style="position: static">Enter some text</p>
+     <input type="text" id="input-box">
+<div id="error-message" class="error-message"></div>
+<script>
+  var inputBox = document.getElementById('input-box');
+  var errorMessage = document.getElementById('error-message');
+
+  inputBox.addEventListener('input', function() {
+    var inputValue = inputBox.value;
+    if (inputValue.length < 4) {
+      errorMessage.textContent = 'Enter at least 4 characters '
+      0t06ltlgglglglglglrrmgllgg,gb,bllgltt,gg,g,g,hkggotituyuhjbngjfifkfkloddjdkienvnvnvjjeieieiiduryrufhfnvjedkfjrufjfjfjfjrurofkfjfjgkdfdfmfsklfklmfklmfkjfvkjvkjfvkjfvkjfkmmbmmmmdfmmfmmbmmbgmerloroijrijoerijoijojgrkrkrfknibineoenoreldldmdmdmdddkkdjjjdjdjdjdjdjdjdjdjdjdjdjdjdjdjdjdjdjjdjdjdjdjdjdjdjdjdjdjdjdjdjdjdjdjdjdjdjdjdjdjdjdjdjdjdjdjdjdjdjdjdjdjdjdjdjdjdjdjdjdjdjdjjdjdjdjdjdjdjdjjdjdjdjdjdjdjdjfhfhghguturieoepwepowepoiwriprtiperiperiperipreipreiteieripriprieriporiperwiporwiporwiporipoewrpierwporpoirwpoierwpirwiperwpoierwiopoirwpoirwpoierwpoirewipoerwpirwipriperwipoerwipoewpoiewripoerwipoeipoerwipoerpoiipoerwpoierioerwipoerwiperwpoewripoerwjdfskjskjdsfdmnnmcvmncvxnmvxcncvxnmcvxnmcvx,mvxm,xmn,x,mcx,mcvxm,mcvxm,mcxv,mmxcv,mxmx,m.,m.mds;l;lkklkld'dkldskdsfkldfskldfskdbn bn b  'knnnhhmfmfmfmffmfmfmfmfmfmffjgtrhryrueroerioewpoew[perwiprwio742787934879487348973487945281328091098098984eruohurvkjvjvvvwijmowrcwiojx,ixw,ixw,fwijfrcjmcghuneghnegvhunvegbc4biucrinhuvrenjcwimo,xx,cijicevguevnvumwmcwi,oxw.xx]wxwf..wpef.ewpf.lwep.x.wqfc,wfocmfrrcnnervgnnvyngtyhtgtyghtyhgtghtghthgtgtgtgtgghghgjjdjdjdiuerruuiuwtrp2ttutuuuteiuoueowwwpriwprrtuuertoioueoioiuoeoiewertertewrteroiouueroioueroiouepooiuoweroioutroiuwererwerwiuoertroierioutroiuerwoiutriuoerwiouoiueriuodfiocvxkjvxkjlvxkjvckvcxcvxklcvxkcvxkcvxkxcvcxkcvxxxxxmcxm   m  m m m m m mmnc m m cvmccmcmcccmcmnbnbnb;iufhvjnvjlvjvdjnjnvkjnjdvnjbivnsdissinau acinsusoi[jakjvvduriuram pavan sushant ]'
+    } 
+    else if(inputValue.length<10){
+      errorMessage.textContent= ' length: ' + inputValue.length + ' characters Input: ' + inputValue;
+
+    }
+    else {
+      errorMessage.textContent = 'Input length: ' + inputValue.length + ' characters. Input: ' + inputValue;
+    }
+  });
+</script>
+
+</body>
+</html>

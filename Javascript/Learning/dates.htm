@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dates </title>
+    <link rel="stylesheet" href="/bootstrap-5.3.2-dist/css/bootstrap.min.css">
+
+</head>
+<body>
+    <div class="container">
+
+    <script type="text/javascript">
+        let a=new Date();
+        document.write('Current Year:'+a.getFullYear()+'<br>')
+        document.write('Current Month:'+a.getMonth()+'<br>')
+        document.write('Current Date:'+a.toISOString().slice(0,10)+'<br>')
+        document.write('Current day:'+parseInt(a.getDay()+1)+'<br>')
+        document.write('Current Hour:'+a.getHours()+'<br>')
+        document.write('Current Minutes:'+a.getMinutes()+'<br>')
+        document.write('Current Seconds:'+a.getSeconds()+'<br>')
+        document.write('Current MilliSeconds:'+a.getMilliseconds()+'<br>')
+        const days=["sunday",'monday','Tuesaday','wednesday','Thursday','Friday','Saturday'];
+        let day=days[a.getDay()];
+        document.write("current day is:"+day+"<br>");    
+        const months=['Jan','Feb','March','April','May','June','July','Aug',"Sep",'Oct','Nov','Dec'];
+        let month=months[a.getMonth()];
+        document.write('current Month is:'+month+"<br>");
+
+    </script>
+    </div>
+</body>
+</html>

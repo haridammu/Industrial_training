@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Incre_or_Decre</title>
+    <style>
+        .increment {
+            background: linear-gradient( red, yellow);
+        }
+        .decrement {
+            background: linear-gradient( royalblue, green);
+        }
+    </style>
+    <script>
+        var value = 0; // Initial value
+
+        function increment() {
+            
+            value += 1;
+            document.getElementById("display").innerText = value;
+           
+        }
+
+        function decrement() {
+            value -= 1;
+            document.getElementById("display").innerText = value;
+        }
+    </script>
+</head>
+<body>
+    <div>
+        <p id="display">0</p>
+        <button class="increment" onclick="increment()">Increment</button>
+        <button class="decrement" onclick="decrement()">Decrement</button>
+    </div>
+</body>
+</html>

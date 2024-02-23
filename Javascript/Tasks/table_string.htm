@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .one {
+            background: linear-gradient( red, yellow);
+        }
+        .two {
+            background: linear-gradient( royalblue, green);
+        }
+        .r1{
+            background-color: yellowgreen;
+        }
+        .r2{
+            background-color: aquamarine;
+        }
+        .r3{
+            background-color: blueviolet;
+        }
+    </style>
+    <script>
+        function myFunction() {
+            var collection = document.getElementsByTagName("td");
+            var strings = ['hari', 'pavan', 'susu', 'nani', 'durga', 'varun', 'babu', 'Ram', 'haha'];
+            for (let i = 0; i < collection.length; i++) {
+                collection.item(i).innerHTML = strings[i];
+            }
+        }
+        function reverse() {
+            var collection = document.getElementsByTagName('td');
+            var strings = ['hari', 'pavan', 'susu', 'nani', 'durga', 'varun', 'babu', 'Ram', 'haha'];
+            for (let i = 0; i < collection.length; --i) {
+
+                collection.item(i).innerHTML = strings[i];
+            }
+        }
+    </script>
+</head>
+<body>
+
+<table border="3px solid">
+    <tr class="r1">
+        <td></td>
+        <td style="background-color: brown;"></td>
+        <td style="background-color: bisque;"></td>
+    </tr>
+    <tr class="r2">
+        <td></td>
+        <td style="background-color: palevioletred;"></td>
+        <td style="background-color: paleturquoise;"></td>
+    </tr>
+    <tr class="r3">
+        <td></td>
+        <td style="background-color:burlywood;"></td>
+        <td style="background-color: chartreuse;"></td>
+    </tr>
+</table>
+<br>
+<button class="one" onclick="myFunction()">click</button>
+<button class="two" onclick="reverse()">reverse</button>
+
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Color Changer</title>
+<style>
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+    }
+    button {
+        padding: 10px 20px;
+        font-size: 18px;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+</style>
+</head>
+<body>
+<button id="colorBtn">Change BackgroundColor</button>
+<script>
+    const colorBtn = document.getElementById('colorBtn');
+
+    function changeBackgroundColor() {
+        const randomColor = "#" + Math.floor(Math.random()*16777215).toString(16);
+        document.body.style.backgroundColor = randomColor;
+    }
+
+    colorBtn.addEventListener('click', changeBackgroundColor);
+</script>
+</body>
+</html>
